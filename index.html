@@ -22,7 +22,8 @@
   --paper: #fbfff3;
   --tint: #e9f5d8;
   --blush: #f7b6a8;
-  --font-display: "Bagel Fat One", "Arial Rounded MT Bold", Arial, sans-serif;
+  --font-display: Arial, Helvetica, sans-serif;
+  --font-bubble: "Bagel Fat One", "Arial Rounded MT Bold", Arial, sans-serif;
   --doodle-pink: #f4adab;
   --doodle-peach: #f2c08e;
   --doodle-brown: #4a2a16;
@@ -41,9 +42,9 @@ body {
 }
 * { box-sizing: border-box; }
 h1, h2, h3, p { margin: 0; }
-h1, h2, h3 { font-family: var(--font-display); font-weight: 400; text-wrap: balance; line-height: 1.15; letter-spacing: .02em; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 700; text-wrap: balance; line-height: 1.15; letter-spacing: .02em; }
 .doodle, .section h2, .intro-card h1, .head-row .who, .nameplate b {
-  font-family: var(--font-display); font-weight: 400; color: var(--doodle-brown);
+  font-family: var(--font-display); font-weight: 700; color: var(--doodle-brown);
 }
 a { color: inherit; }
 button { font: inherit; color: inherit; }
@@ -305,10 +306,10 @@ a.link-card:hover { transform: translateY(-3px); }
       <!-- welcome text -->
       <g class="hint" transform="translate(0 430)">
         <g class="float">
-          <g font-family="Bagel Fat One, Arial Rounded MT Bold, Arial, sans-serif" fill="#fff4dc" text-anchor="middle" stroke="#4a2a16" stroke-width="4" stroke-linejoin="round" paint-order="stroke" filter="url(#doodleShadow)" letter-spacing="1">
+          <g font-family="Arial, Helvetica, sans-serif" font-weight="700" fill="#fff4dc" text-anchor="middle" stroke="#4a2a16" stroke-width="4" stroke-linejoin="round" paint-order="stroke" filter="url(#doodleShadow)">
             <text x="800" y="287" font-size="22">Hii, welcome to my website!</text>
             <text x="800" y="317" font-size="22">Want to know more about me?</text>
-            <text x="800" y="356" font-size="32">Click me!</text>
+            <text x="800" y="358" font-size="34" font-family="Bagel Fat One, Arial Rounded MT Bold, Arial, sans-serif" font-weight="400" letter-spacing="1">Click me!</text>
           </g>
         </g>
       </g>
